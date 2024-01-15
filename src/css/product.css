@@ -1,0 +1,35 @@
+.PContainer-0{
+    margin: 0px 0px 0px 150px;
+    min-height: 80vh;
+}
+.PContainer{
+    margin: 25px 25px 25px 25px;
+    padding: 0px 10px 0px 10px;
+    width: 235px;
+    height: 180px;
+    float: left;
+    border: 3px solid;
+}
+.PContent{
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    line-height: 1.5;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.delete-checkbox{
+    margin: 20px 0px 0px 15px;
+    display: flex;
+    width: 18px;
+    height: 18px;
+}
+.items{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+

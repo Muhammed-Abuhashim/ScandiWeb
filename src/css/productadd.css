@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+}
+.container {
+    max-width:400px;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    font-weight:600;
+    font-size: 12px;
+    line-height:30px;
+    color:#777;
+    min-height: 80vh;
+}
+
+.label1, .label2, .label3, .drop1, .label4, .label5, .label6, .label7, .label8, .label9, .label10, .label11{
+    float: inline-start;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#product_form input[type="text"], #product_form button[type="submit"] { 
+    font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; 
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+#product_form {
+    background:#F9F9F9;
+    padding:15px;
+    margin: 15px 0px 15px 0px;
+    border: 0.5px solid #777;
+}
+
+#product_form h3 {
+    margin:0;
+    padding:0;
+    color: #F96;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#product_form-h4 {
+    margin:0;
+    padding:0;
+    margin:5px 0 5px;
+    display:block;
+    font-size:13px;
+}
+
+.errormsg{
+    margin: 0px 0 0px;
+    color: rgb(107, 5, 5);
+    font-size: 15px;
+}
+fieldset {
+    border: medium none !important;
+    margin: 10px 0 0 0;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#product_form input[type="text"]{
+    width:100%;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+}
+
+#product_form input[type="number"]{
+    width:94%;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+}
+
+#product_form input[type="text"], #add input[type="number"]:hover{
+    -webkit-transition:border-color 0.3s ease-in-out;
+    -moz-transition:border-color 0.3s ease-in-out;
+    transition:border-color 0.3s ease-in-out;
+    border:1px solid #AAA;
+}
+
+#product_form button[type="submit"] {
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:#0CF;
+    color:#FFF;
+    margin:10px 0 5px;
+    padding:10px;
+    font-size:15px;
+}
+
+#product_form button[type="submit"]:hover {
+    background:#09C;
+    -webkit-transition:background 0.3s ease-in-out;
+    -moz-transition:background 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+}
+
+#product_form button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#product_form input:focus {
+    outline:0;
+    border:1px solid #999;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 28px;
+    width:70%;
+    background: #f2f2f2;
+    border: 1px solid;
+    border-color: white #f7f7f7 whitesmoke;
+    border-radius: 3px;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.06));
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.dropdown-select {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 6px 8px 6px 10px;
+    height: 28px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #62717a;
+    text-shadow: 0 1px white;
+    background: #f2f2f2; /* Fallback for IE 8 */
+    background: rgba(0, 0, 0, 0) !important; /* "transparent" doesn't work with Opera */
+    border: 0;
+    border-radius: 0;
+}
+
+.dropdown-select:focus {
+    z-index: 3;
+    width: 100%;
+    color: #394349;
+    outline: 2px solid;    
+}
+
+.dropdown-select > option {
+    margin: 3px;
+    padding: 6px 8px;
+    text-shadow: none;
+    background: #f2f2f2;
+    border-radius: 3px;
+    cursor: pointer;
+}
